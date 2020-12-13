@@ -60,15 +60,13 @@
 		48711EB32586560B00BA7DDB /* EmilVaklinovCard */ = {
 			isa = PBXGroup;
 			children = (
-				48711EC92586590300BA7DDB /* Fonts */,
-				48711EB42586560B00BA7DDB /* AppDelegate.swift */,
-				48711EB62586560B00BA7DDB /* SceneDelegate.swift */,
-				48711EB82586560B00BA7DDB /* ContentView.swift */,
-				48711EBA2586560D00BA7DDB /* Assets.xcassets */,
-				48711EBF2586560D00BA7DDB /* LaunchScreen.storyboard */,
-				48711EC22586560D00BA7DDB /* Info.plist */,
+				48711ED325866A9900BA7DDB /* Delegates */,
+				48711ED125866A7700BA7DDB /* Views */,
+				48711ED525866AB300BA7DDB /* Storybord */,
 				48711EBC2586560D00BA7DDB /* Preview Content */,
-				48711ECE258664BD00BA7DDB /* InfoView.swift */,
+				48711EC92586590300BA7DDB /* Fonts */,
+				48711EBA2586560D00BA7DDB /* Assets.xcassets */,
+				48711EC22586560D00BA7DDB /* Info.plist */,
 			);
 			path = EmilVaklinovCard;
 			sourceTree = "<group>";
@@ -87,6 +85,32 @@
 				48711ECA2586592200BA7DDB /* Pacifico-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		48711ED125866A7700BA7DDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48711EB82586560B00BA7DDB /* ContentView.swift */,
+				48711ECE258664BD00BA7DDB /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48711ED325866A9900BA7DDB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				48711EB42586560B00BA7DDB /* AppDelegate.swift */,
+				48711EB62586560B00BA7DDB /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		48711ED525866AB300BA7DDB /* Storybord */ = {
+			isa = PBXGroup;
+			children = (
+				48711EBF2586560D00BA7DDB /* LaunchScreen.storyboard */,
+			);
+			path = Storybord;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

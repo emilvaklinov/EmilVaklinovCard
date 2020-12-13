@@ -12,6 +12,7 @@ struct InfoView: View {
     let text: String
     let imageName: String
     
+    
     var body: some View {
         RoundedRectangle(cornerRadius: 50)
             .frame(height: 44)

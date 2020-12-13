@@ -32,8 +32,17 @@ struct ContentView: View {
                     .font(.system(size: 17))
                 
                 Divider()
-                InfoView(text: "+44 77 0691 0638", imageName: "phone.fill")
+                InfoView(text: "+ 44 77 0691 0638", imageName: "phone.fill")
                 InfoView(text: "emil_vaklinov@yahoo.com", imageName: "envelope.fill")
+                
+                Divider()
+                Image("linkdincode")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 70, height: 70, alignment: .center)
+                Text("LinkdIn")
+                    .foregroundColor(.white)
+                    .font(.system(size: 17))
             }
             
         }
