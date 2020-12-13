@@ -14,6 +14,7 @@
 		48711EBE2586560D00BA7DDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48711EBD2586560D00BA7DDB /* Preview Assets.xcassets */; };
 		48711EC12586560D00BA7DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48711EBF2586560D00BA7DDB /* LaunchScreen.storyboard */; };
 		48711ECB2586592200BA7DDB /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48711ECA2586592200BA7DDB /* Pacifico-Regular.ttf */; };
+		48711ECF258664BD00BA7DDB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48711ECE258664BD00BA7DDB /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		48711EC02586560D00BA7DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48711EC22586560D00BA7DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48711ECA2586592200BA7DDB /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		48711ECE258664BD00BA7DDB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				48711EBF2586560D00BA7DDB /* LaunchScreen.storyboard */,
 				48711EC22586560D00BA7DDB /* Info.plist */,
 				48711EBC2586560D00BA7DDB /* Preview Content */,
+				48711ECE258664BD00BA7DDB /* InfoView.swift */,
 			);
 			path = EmilVaklinovCard;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48711ECF258664BD00BA7DDB /* InfoView.swift in Sources */,
 				48711EB52586560B00BA7DDB /* AppDelegate.swift in Sources */,
 				48711EB72586560B00BA7DDB /* SceneDelegate.swift in Sources */,
 				48711EB92586560B00BA7DDB /* ContentView.swift in Sources */,
